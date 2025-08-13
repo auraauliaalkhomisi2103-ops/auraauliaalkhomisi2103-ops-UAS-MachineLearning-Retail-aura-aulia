@@ -1,0 +1,1 @@
+# auraauliaalkhomisi2103-ops-UAS-MachineLearning-Retail-aura-aulia
