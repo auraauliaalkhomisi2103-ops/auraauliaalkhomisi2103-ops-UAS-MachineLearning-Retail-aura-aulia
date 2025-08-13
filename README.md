@@ -60,8 +60,10 @@ Cluster
 *Berikut adalah visualisasi hasil segmentasi dan perbandingan detail untuk setiap segmen.*
 
 **Gambar 1: Hasil Utama Segmentasi**
-<img width="1790" height="616" alt="image" src="https://github.com/user-attachments/assets/73434f74-120d-4169-bdd3-c682d592bad5" />
+<img width="1589" height="606" alt="image" src="https://github.com/user-attachments/assets/68844ba7-414a-425b-ac8c-44ade1cd551a" />
 **Gambar 2: Perbandingan Detail Karakteristik RFM antar Segmen**
+<img width="1790" height="616" alt="image" src="https://github.com/user-attachments/assets/73434f74-120d-4169-bdd3-c682d592bad5" />
+
 ### Penjelasan dan Interpretasi Hasil
 
 Berdasarkan tabel dan visualisasi di atas, kita dapat memberikan interpretasi dan strategi bisnis untuk setiap segmen:
