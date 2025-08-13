@@ -1,42 +1,34 @@
 # UAS Machine Learning: Analisis Segmentasi Pelanggan Retail
 
-Repositori ini berisi pengerjaan Ujian Akhir Semester (UAS) mata kuliah Machine Learning.
+Repositori ini berisi pengerjaan Ujian Akhir Semester (UAS) mata kuliah Machine Learning. Proyek ini melakukan segmentasi pelanggan (customer segmentation) dari dataset Online Retail II.
 
-- **Nama:** [Isi Nama Lengkap Kamu]
-- **NIM:** [Isi NIM Kamu]
-- **Dataset:** Online Retail II
-
----
-
-## Tujuan Analisis & Algoritma
-
-* **Tujuan:** Melakukan segmentasi pelanggan (customer segmentation) berdasarkan perilaku pembelian mereka menggunakan metode RFM (Recency, Frequency, Monetary).
-* **Algoritma:** K-Means Clustering digunakan untuk mengelompokkan pelanggan ke dalam segmen-segmen yang berbeda berdasarkan skor RFM mereka.
+-   **Nama:** Aura Aulia Al Khomisi
+-   **NIM:** 227006516044
+-   **Dataset:** Online Retail II (UCI Machine Learning Repository)
 
 ---
 
-## Cara Menjalankan Program
+## 🎯 Tujuan & Algoritma
 
-### 1. Download Dataset
-Dataset **tidak** di-upload ke repositori ini karena ukurannya yang sangat besar. Silakan unduh dataset (`online_retail_II.zip`) dari link resmi berikut:
+* **Tujuan Analisis:** Mengelompokkan pelanggan ke dalam segmen-segmen yang berbeda berdasarkan perilaku pembelian mereka. Ini dilakukan dengan menggunakan **Analisis RFM (Recency, Frequency, Monetary)** untuk mengukur nilai setiap pelanggan. Tujuannya adalah agar perusahaan dapat membuat strategi pemasaran yang lebih efektif dan personal.
 
-* **Link Download:** [https://archive.ics.uci.edu/dataset/162/forest+fires](https://archive.ics.uci.edu/dataset/502/online+retail+ii)
-
-### 2. Setup
-* Ekstrak file ZIP yang sudah diunduh. Di dalamnya akan ada file `online_retail_II.csv`.
-* Letakkan file `online_retail_II.csv` di dalam folder yang sama dengan file `analisis_retail.py`.
-
-### 3. Jalankan
-* Buka terminal atau command prompt, masuk ke direktori proyek, dan jalankan perintah:
-    ```bash
-    python analisis_retail.py
-    ```
-* Program akan membuat folder `output` dan menyimpan gambar hasil segmentasi di dalamnya.
+* **Algoritma yang Digunakan:** **K-Means Clustering**. Algoritma ini dipilih karena kemampuannya yang sangat baik dalam menemukan kelompok (cluster) secara alami di dalam data tanpa memerlukan label (unsupervised learning). K-Means efisien dan hasilnya mudah diinterpretasikan untuk memahami karakteristik setiap segmen pelanggan.
 
 ---
 
-## Contoh Hasil Output
+## 💻 Cara Menjalankan Program
 
-*(Program akan menghasilkan plot seperti di bawah ini, yang menunjukkan pengelompokan pelanggan)*
+Proyek ini dikerjakan menggunakan **Google Colab** untuk kemudahan penggunaan dan menghindari masalah instalasi.
 
-![Contoh Hasil Plot](https://i.imgur.com/8E2Z8gH.png)
+1.  **Buka Google Colab:** Buat notebook baru di [colab.research.google.com](https://colab.research.google.com/).
+2.  **Siapkan Kode:** Proyek ini menggunakan dua blok kode terpisah: satu untuk upload file, dan satu lagi untuk analisis. Salin dan tempel kedua blok kode dari repositori ini ke dalam dua sel terpisah di notebook Colab Anda.
+3.  **Upload Dataset:** Jalankan **Blok 1 (Upload File)**. Sebuah tombol "Choose Files" akan muncul. Pilih kedua file dataset (`online_retail_II.xlsx - Year 2009-2010.csv` dan `online_retail_II.xlsx - Year 2010-2011.csv`) dari komputer Anda.
+4.  **Jalankan Analisis:** Setelah file berhasil di-upload, jalankan **Blok 2 (Analisis Data)**. Program akan memproses data dan menampilkan hasilnya, termasuk tabel karakteristik dan plot visualisasi.
+
+---
+
+## 📊 Hasil Analisis dan Interpretasi
+
+Setelah menjalankan program, ditemukan 4 segmen pelanggan yang berbeda dengan karakteristik unik.
+
+### Karakteristik Segmen
